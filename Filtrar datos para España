@@ -1,0 +1,4 @@
+df_esp = df[df["REF_AREA"] == "ESP"]
+
+print("Filas España:", len(df_esp))
+print(df_esp.head())
